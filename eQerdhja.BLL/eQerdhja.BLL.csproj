@@ -41,8 +41,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AdressBLL.cs" />
+    <Compile Include="AllergiesBLL.cs" />
+    <Compile Include="ClassBLL.cs" />
+    <Compile Include="EtnicityBLL.cs" />
+    <Compile Include="GenerationsBLL.cs" />
+    <Compile Include="KidBLL.cs" />
+    <Compile Include="KidTakingMedicationBLL.cs" />
+    <Compile Include="KindergartenScheduleBLL.cs" />
+    <Compile Include="ParentBLL.cs" />
+    <Compile Include="ProductBLL.cs" />
+    <Compile Include="ProductCategoryBLL.cs" />
+    <Compile Include="ProductInStockBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SexBLL.cs" />
+    <Compile Include="StaffBLL.cs" />
+    <Compile Include="StaffRoleBLL.cs" />
+    <Compile Include="StaffShiftBLL.cs" />
+    <Compile Include="SubscriptionBLL.cs" />
+    <Compile Include="SupplierBLL.cs" />
+    <Compile Include="TeacherGenerationBLL.cs" />
+    <Compile Include="UserBLL.cs" />
+    <Compile Include="UserRoleBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eQerdhja.BO\eQerdhja.BO.csproj">

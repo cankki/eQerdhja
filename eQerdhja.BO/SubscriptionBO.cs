@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eQerdhja.BO
 {
-    class Subscription
+    class SubscriptionBO
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eQerdhja.BO
 {
-    class Address
+    class AddressBO
     {
         private int ID { get; set; }
         public string StreetName { get; set; }

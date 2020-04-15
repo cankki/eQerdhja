@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace eQerdhja.BO
 {
-    class Allergies
+    class AllergiesBO
     {
         public int AllergiesID { get; set; }
         public string Name { get; set; }
-        public Kid Kid { get; set; }
+        public KidBO Kid { get; set; }
         public string Description { get; set; }
 
     }

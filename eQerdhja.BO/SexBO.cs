@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eQerdhja.BO
 {
-    class StaffShift
+    class SexBO
     {
     }
 }

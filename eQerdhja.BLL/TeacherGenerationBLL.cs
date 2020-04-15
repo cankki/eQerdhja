@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eQerdhja.BO
+namespace eQerdhja.BLL
 {
-    class KindergartenSchedule
+    class TeacherGenerationBLL
     {
     }
 }

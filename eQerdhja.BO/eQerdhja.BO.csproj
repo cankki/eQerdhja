@@ -41,28 +41,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs" />
-    <Compile Include="Allergies.cs" />
-    <Compile Include="Class.cs" />
-    <Compile Include="Etnicity.cs" />
-    <Compile Include="Generation.cs" />
-    <Compile Include="Kid.cs" />
-    <Compile Include="KidTakingMedication.cs" />
-    <Compile Include="KindergartenSchedule.cs" />
-    <Compile Include="Parent.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductCategory.cs" />
-    <Compile Include="ProductInStock.cs" />
+    <Compile Include="AddressBO.cs" />
+    <Compile Include="AllergiesBO.cs" />
+    <Compile Include="ClassBO.cs" />
+    <Compile Include="EtnicityBO.cs" />
+    <Compile Include="GenerationBO.cs" />
+    <Compile Include="KidBO.cs" />
+    <Compile Include="KidTakingMedicationBO.cs" />
+    <Compile Include="KindergartenScheduleBO.cs" />
+    <Compile Include="ParentBO.cs" />
+    <Compile Include="ProductBO.cs" />
+    <Compile Include="ProductCategoryBO.cs" />
+    <Compile Include="ProductInStockBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sex.cs" />
-    <Compile Include="Staff.cs" />
-    <Compile Include="StaffRole.cs" />
-    <Compile Include="StaffShift.cs" />
-    <Compile Include="Subscription.cs" />
-    <Compile Include="Supplier.cs" />
-    <Compile Include="TeacherGeneration.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="UserRole.cs" />
+    <Compile Include="SexBO.cs" />
+    <Compile Include="StaffBO.cs" />
+    <Compile Include="StaffRoleBO.cs" />
+    <Compile Include="StaffShiftBO.cs" />
+    <Compile Include="SubscriptionBO.cs" />
+    <Compile Include="SupplierBO.cs" />
+    <Compile Include="TeacherGenerationBO.cs" />
+    <Compile Include="UserBO.cs" />
+    <Compile Include="UserRoleBO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

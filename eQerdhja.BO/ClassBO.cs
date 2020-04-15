@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace eQerdhja.BO
 {
-    class StaffRole
+    class ClassBO
     {
+        public int ClassID { get; set; }
+        //public Teacher MyProperty { get; set; }
+
     }
 }
