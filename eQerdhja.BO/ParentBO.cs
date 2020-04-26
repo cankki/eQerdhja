@@ -8,5 +8,6 @@ namespace eQerdhja.BO
 {
     class ParentBO
     {
+        public  string TEST { get; set; }
     }
 }
