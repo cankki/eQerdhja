@@ -8,5 +8,7 @@ namespace eQerdhja.BO
 {
     class SexBO
     {
+        public int SexID { get; set; }
+        public string Name { get; set; }
     }
 }

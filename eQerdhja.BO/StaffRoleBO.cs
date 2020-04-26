@@ -8,5 +8,7 @@ namespace eQerdhja.BO
 {
     class StaffRoleBO
     {
+        public int StaffRoleID { get; set; }
+        public string Description { get; set; }
     }
 }

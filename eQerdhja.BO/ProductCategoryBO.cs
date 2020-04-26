@@ -8,5 +8,8 @@ namespace eQerdhja.BO
 {
     class ProductCategoryBO
     {
+        public int ProductCategoryID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

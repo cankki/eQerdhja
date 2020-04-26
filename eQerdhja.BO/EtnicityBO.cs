@@ -8,5 +8,7 @@ namespace eQerdhja.BO
 {
     class EtnicityBO
     {
+        public int EtnicityID { get; set; }
+        public string Name { get; set; }
     }
 }

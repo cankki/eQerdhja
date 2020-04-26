@@ -8,5 +8,20 @@ namespace eQerdhja.BO
 {
     class StaffBO
     {
+        public int StaffID { get; set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string PhoneNum { get; set; }
+        public string Email { get; set; }
+        public int AddressID { get; set; } //KOMPOZICION
+        public int SexID { get; set; } // KOMPOZICION
+        public int TypeID { get; set; } // KOMPZICION
+        public int ShiftID { get; set; } // KOMPOZICION
+        public string InsertedBy { get; set; }
+        public DateTime InsertDate { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime UpdatedDate { get; set; }
+        public DateTime UpdateNo { get; set; }
     }
 }
