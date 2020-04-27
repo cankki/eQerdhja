@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace eQerdhja
 {
-    public partial class loginfrm : Form
+    public partial class Dashboard : Form
     {
-        public loginfrm()
+        public Dashboard()
         {
             InitializeComponent();
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            Dashboard d = new Dashboard();
-            d.ShowDialog();
         }
     }
 }
