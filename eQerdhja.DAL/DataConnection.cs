@@ -78,5 +78,17 @@ namespace eQerdhja.DAL
                 throw;
             }
         }
+
+        public static object ShowDataInGridView(string query)
+        {
+            using(SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query,ConnectionString))
+            {
+                DataSet dataSet = new DataSet();
+                sqlDataAdapter.Fill(dataSet);
+                object data = dataSet.Tables[0];
+                return data;
+            }
+        }
+
     }
 }
