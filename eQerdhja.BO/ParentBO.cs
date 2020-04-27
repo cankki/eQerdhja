@@ -12,11 +12,11 @@ namespace eQerdhja.BO
         public int ParentID { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
-        public int SexID { get; set; } //kompozicion
+        public SexBO SexID { get; set; } 
         public string PhoneNum { get; set; }
         public string Email { get; set; }
-        public int AdressID { get; set; } //KOMPOZICION
-        public int KidID { get; set; }//KOMPOZICION
+        public AddressBO AdressID { get; set; } 
+        public KidBO KidID { get; set; }
         public bool LiveTogether { get; set; }
         public string Profession { get; set; }
         public   string InsertedBy { get; set; }

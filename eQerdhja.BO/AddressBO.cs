@@ -8,7 +8,7 @@ namespace eQerdhja.BO
 {
     class AddressBO
     {
-        private int ID { get; set; }
+        private int AddressID { get; set; }
         public string StreetName { get; set; }
         public string City { get; set; }
         public string ZipCode { get; set; }

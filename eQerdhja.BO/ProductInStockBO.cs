@@ -8,7 +8,7 @@ namespace eQerdhja.BO
 {
     class ProductInStockBO
     {
-        public int ProductID { get; set; } // KOMPOZICION
+        public ProductBO ProductID { get; set; } 
         public bool IsGramMeassured { get; set; }
         public decimal Quantity { get; set; }
 

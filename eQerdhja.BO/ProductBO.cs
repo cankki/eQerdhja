@@ -14,6 +14,6 @@ namespace eQerdhja.BO
         public DateTime ExpirationDate{ get; set; }
         public string ProductionCountry { get; set; }
         public string Description { get; set; }
-        public int CategoryID { get; set; } //kompozicion
+        public ProductCategoryBO CategoryID { get; set; } 
     }
 }

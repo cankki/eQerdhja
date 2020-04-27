@@ -12,8 +12,8 @@ namespace eQerdhja.BO
         public int ID { get; set; }
         public DateTime PaymentDate { get; set; }
         public DateTime  ExpirationDate{ get; set; }
-        public int ParentID { get; set; } // kompozicion
-        public int ScheduleID { get; set; } // kompozicion
+        public ParentBO ParentID { get; set; } 
+        public KindergartenScheduleBO ScheduleID { get; set; } 
         public decimal TotalPrice { get; set; }
     }
 }

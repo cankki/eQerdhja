@@ -10,9 +10,9 @@ namespace eQerdhja.BO
     {
         public int SupplierID { get; set; }
         public string Name { get; set; }
-        public int AddressID { get; set; }//kompozicion
+        public AddressBO AddressID { get; set; }
         public string PhoneNum { get; set; }
         public string Email { get; set; }
-        public int ProductID { get; set; } // KOMPOZICION
+        public ProductBO ProductID { get; set; }
     }
 }

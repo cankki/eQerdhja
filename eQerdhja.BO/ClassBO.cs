@@ -9,7 +9,8 @@ namespace eQerdhja.BO
     class ClassBO
     {
         public int ClassID { get; set; }
-        //public Teacher MyProperty { get; set; }
+        public  StaffBO TeacherID { get; set; }
+        public GenerationBO GenerationID { get; set; }
 
     }
 }

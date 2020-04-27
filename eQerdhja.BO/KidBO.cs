@@ -13,11 +13,11 @@ namespace eQerdhja.BO
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string BirthPlace { get; set; }
-        public int SexID { get; set; } // KOMPOZICION
-        public int EtinicityID { get; set; } // KOMPOZICION
+        public SexBO SexID { get; set; } 
+        public EtnicityBO EtinicityID { get; set; } 
         public bool IsAlergic { get; set; }
         public bool TakesMedication { get; set; }
-        public int GenerationID { get; set; } // KOMPOZICION
+        public GenerationBO GenerationID { get; set; } 
         public string InsertedBy { get; set; }
         public DateTime InsertDate { get; set; }
         public string UpdatedBy { get; set; }

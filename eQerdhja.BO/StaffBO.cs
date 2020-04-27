@@ -14,10 +14,10 @@ namespace eQerdhja.BO
         public DateTime BirthDate { get; set; }
         public string PhoneNum { get; set; }
         public string Email { get; set; }
-        public int AddressID { get; set; } //KOMPOZICION
-        public int SexID { get; set; } // KOMPOZICION
-        public int TypeID { get; set; } // KOMPZICION
-        public int ShiftID { get; set; } // KOMPOZICION
+        public AddressBO AddressID { get; set; } 
+        public SexBO SexID { get; set; } 
+        public StaffRoleBO TypeID { get; set; } 
+        public StaffShiftBO ShiftID { get; set; } 
         public string InsertedBy { get; set; }
         public DateTime InsertDate { get; set; }
         public string UpdatedBy { get; set; }
