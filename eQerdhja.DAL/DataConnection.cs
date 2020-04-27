@@ -16,7 +16,7 @@ namespace eQerdhja.DAL
         {
             get
             {
-                return ConfigurationManager.ConnectionStrings["eQerdhjaConn"].ConnectionString;
+                return ConfigurationManager.ConnectionStrings["eQerdhjaConnDinioni"].ConnectionString;
             }
         }
 
@@ -78,8 +78,5 @@ namespace eQerdhja.DAL
                 throw;
             }
         }
-
-
-
     }
 }
